@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/* front */
+.front{
+    background-color: white;
+    height: 100vh;
+}
+
+/* navbar */
+#logo{
+    height: 100px;
+    border: solid black;
+    border-radius: 100%;
+}
+#logo:hover{
+    cursor: pointer;
+    
+}
+.navbar{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.navbar li{
+    list-style: none;
+    margin: 3vh 30px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+/* navbar */
+
+/* Home */
+.front_data{
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-between;
+}
+.intro{
+    margin: 40vh 200px 0 0;
+    padding-right: 200px;
+}
+.intro_hi{
+    text-align: end;
+    font-size: 1.5rem;
+    color: black; 
+}
+.intro h1{
+    font-size: 2rem;
+    color: black;
+    text-align: right;
+}
+#name{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.scrollDown{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aquamarine;
+}
+.scrollDown:hover{
+    transition: ease-in-out 0.5s;
+    color: cyan;
+}
+/* Home */
+/* front */
+
+
+/* main reason */
+#main_reason{
+    height: 100vh;
+}
+/* main reason */
+
+
+/* utilities */
+.icons{
+    height: 40px;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    top: 5px;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 0 5px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+/* utilities */
